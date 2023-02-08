@@ -1,0 +1,23 @@
+Package: montyhall
+Title: Monty Hall Problem (Should the Contestant Stay or Switch?)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Monica", "Cable", , "mjcable@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "MJCABLE"))
+Description: This package plays the game from The Monty Hall Problem.
+	In this game, a contestant is faced with three doors. One door
+	hides a car, which they can win if they choose the car door.The
+	other doors hide goats, indicating a loss of the game. The
+	contestant first chooses a door, then the game host reveals one of 
+	the goat doors. The contestant now has to choose whether they want
+	to stay with their original door and hope that it was the winning
+	car door, or switch to the other unopened door and hope that that
+	door hides the car. This function plays the game several times to
+	demonstrate statistically which strategy is more likely to win:
+	staying or switching.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: dplyr
